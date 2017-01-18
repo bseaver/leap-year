@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  // Back end section
 
   var leapYear = function(year) {
     if (year % 4 === 0 && year % 100 > 0 || year % 400 === 0) {
@@ -23,7 +24,12 @@ $(document).ready(function() {
   // leapYearTester(2000);
 
 
+  // Front end section
 
+  $("form").submit(function(grape) {
+    grape.preventDefault();
+    alert("submit presses");
+  });
 
 
 }); // End Document Ready
