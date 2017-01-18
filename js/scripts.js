@@ -29,16 +29,18 @@ $(document).ready(function() {
   $("form").submit(function(grape) {
     grape.preventDefault();
 
-    var inputYear = $("#inputYear").val()
+    var inputYear = $("#inputYear").val();
 
     var leapYearResult = leapYear(inputYear);
 
-    // var emptyOrNot;
-    // if (leapYearResult) {
-    //
-    // } else {
-    //
-    // }
+    var notOrNothing;
+    if (!leapYearResult) {
+      notOrNothing = "not";
+    } else {
+      notOrNothing = "";
+    }
+
+    $("#notSpan").text(notOrNothing);
 
     $("#yearSpan").text(inputYear);
 
