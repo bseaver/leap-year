@@ -7,26 +7,26 @@
 #### Description: Practice Behavior Driven Development BDD to do a Leap Year page
 
 ### Technologies Used
-* HTML, CSS, JavaScript
-* jQuery
-* Bootstrap
-* git
+* #### HTML, CSS, JavaScript
+* #### jQuery
+* #### Bootstrap
+* #### git
 
 ### setup
-* Clone repository
-* Open index.html
+* #### Clone repository
+* #### Open index.html
 
 ### See on GitHub.io
 [https://bseaver.github.io/leap-year/](https://bseaver.github.io/leap-year/)
 
 ### Known Issues
-* None
+* #### None
 
 ### Support
-* None
+* #### None
 
 ### Copyright
-* Benjamin T. Seaver, David R.
+* #### Benjamin T. Seaver, David R.
 
 ### license
-* MIT
+* #### MIT
