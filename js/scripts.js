@@ -33,6 +33,15 @@ $(document).ready(function() {
 
     var leapYearResult = leapYear(inputYear);
 
+    // var emptyOrNot;
+    // if (leapYearResult) {
+    //
+    // } else {
+    //
+    // }
+
+    $("#yearSpan").text(inputYear);
+
     $(".well").show();
   });
 
