@@ -1,18 +1,24 @@
 $(document).ready(function() {
 
   var leapYear = function(year) {
-    if (year === 1993) {
-      return false;
-    } else {
+    if (year % 4 === 0) {
       return true;
+    } else {
+      return false;
     }
   };
 
-  if (!leapYear(1997)) {
-    alert("1993 is not a leap year");
-  } else {
-    alert("1992 is a leap year");
+  var leapYearTester = function(year) {
+    if (leapYear(year)) {
+      alert(year + " is a leap year");
+    } else {
+      alert(year + " is not a leap year");
+    }
   }
+
+  leapYearTester(1993);
+  leapYearTester(2004);
+
 
 
 }); // End Document Ready
