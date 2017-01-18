@@ -33,7 +33,7 @@ $(document).ready(function() {
 
     var leapYearResult = leapYear(inputYear);
 
-    alert(leapYearResult);
+    $(".well").show();
   });
 
 
