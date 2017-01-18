@@ -28,7 +28,12 @@ $(document).ready(function() {
 
   $("form").submit(function(grape) {
     grape.preventDefault();
-    alert("submit presses");
+
+    var inputYear = $("#inputYear").val()
+
+    var leapYearResult = leapYear(inputYear);
+
+    alert(leapYearResult);
   });
 
 
