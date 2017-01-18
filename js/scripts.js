@@ -16,10 +16,11 @@ $(document).ready(function() {
     }
   }
 
-  leapYearTester(1993);
-  leapYearTester(2004);
-  leapYearTester(1900);
-  leapYearTester(2000);
+  // Back end test section
+  // leapYearTester(1993);
+  // leapYearTester(2004);
+  // leapYearTester(1900);
+  // leapYearTester(2000);
 
 
 
