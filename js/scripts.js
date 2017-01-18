@@ -31,6 +31,11 @@ $(document).ready(function() {
 
     var inputYear = $("#inputYear").val();
 
+    if (!inputYear) {
+      alert("Please enter a year");
+      return;
+    }
+
     var leapYearResult = leapYear(inputYear);
 
     var notOrNothing;
